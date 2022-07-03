@@ -6,13 +6,13 @@
   "scripts": {
     "start": "node index.js",
     "seed": "node seed.js",
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --verbose --runInBand"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^5.0.1",
     "config": "^1.29.4",
     "cors": "^2.8.4",
     "express": "^4.16.2",
